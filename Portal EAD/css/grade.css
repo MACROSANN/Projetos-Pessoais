@@ -1,0 +1,96 @@
+.container{
+	width:100%;
+	margin:0 auto;
+	display:block;
+}
+
+.rows{
+	width:100%;
+	float:left;
+	padding:10px 0;
+	clear:both;
+}
+
+.linha{border:solid 1px #ccc;}
+
+.cel10:first-child,
+.cel9:first-child,
+.cel8:first-child,
+.cel2:first-child,
+.cel3:first-child,
+.cel4:first-child,
+.cel6:first-child,
+.cel1:first-child{
+	margin-left:0;	
+}
+
+.cel10,
+.cel9,
+.cel8,
+.cel2,
+.cel3,
+.cel4,
+.cel6,
+.cel1{
+	margin-left:1.79%;	
+}
+
+.cel1{
+	width:6.6875%;
+	float:left;
+	padding:5px 0;
+	background:none;
+}
+
+.cel6{
+	width:49.05208333333333%;
+	float:left;
+	padding:5px 0;
+	background:none;
+}
+
+.cel4{
+	width:32.125%;
+	float:left;
+	padding:5px 0;
+	background:none;
+}
+
+.cel3{
+	width:23.64583333333333%;
+	float:left;
+	padding:5px 0;
+	background:none;
+}
+
+.cel2{
+	width:15.16666666666667%;
+	float:left;
+	padding:5px 0;
+	background:none;
+}
+
+.cel8{
+	width:74.47916666666667%;
+	float:left;
+	padding:5px 0;
+	background:none;
+}
+
+.cel9{
+	width:66.04166666666667%;
+	float:left;
+	padding:5px 0;
+	background:none;
+}
+
+.cel10{
+	width:83.01041666666667%;
+	float:left;
+	padding:5px 0;
+	background:none;
+}
+
+@media (max-width:650px){
+    .cel10, .cel8, .cel9, .cel6, .cel4, .cel3, .cel2, .cel1{width:100%; margin-left:0;}
+}
