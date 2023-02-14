@@ -1,2 +1,2 @@
 # Projetos-Pessoais
-Ideias diversos  de App e API   
+Ideias diversas de App e API   
